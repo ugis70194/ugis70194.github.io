@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Series on ugis&#39;s GitHub Pages</title>
+    <link>https://ugis70194.github.io/series/</link>
+    <description>Recent content in Series on ugis&#39;s GitHub Pages</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+        <atom:link href="https://ugis70194.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PCK2019 予選解説</title>
+      <link>https://ugis70194.github.io/2020/07/pck2019-yo/</link>
+      <pubDate>Sat, 11 Jul 2020 15:21:03 +0900</pubDate>
+      
+      <guid>https://ugis70194.github.io/2020/07/pck2019-yo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>https://ugis70194.github.io/about/</link>
+      <pubDate>Sat, 11 Jul 2020 15:18:33 +0900</pubDate>
+      
+      <guid>https://ugis70194.github.io/about/</guid>
+      <description>記事とか解説pdfを置く</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -39,7 +39,7 @@
 <meta itemprop="description" content="VSCode拡張MPE report formatのドキュメントです">
 <meta itemprop="datePublished" content="2021-04-20T00:55:58&#43;09:00" />
 <meta itemprop="dateModified" content="2021-04-20T00:55:58&#43;09:00" />
-<meta itemprop="wordCount" content="645">
+<meta itemprop="wordCount" content="677">
 
 
 
@@ -281,8 +281,11 @@
 <pre><code class="language-md">![キャプション](リンク)
 </code></pre>
 <h3 id="output">output</h3>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
+<p><a name="fig1" href></a></p>
+<figure style="margin: 0 0 auto auto; text-align: center;">
+  <img src="./img/ugis_400.png">
+  <figcaption>&#x56F3;1. ugis70194</figcaption>
+</figure>
 <h2 id="表のレンダリング">表のレンダリング</h2>
 <p>表の次に書いた<code>&lt;p&gt;</code>要素が表のキャプションとなります。
 表には自動で番号が振られ、キャプションとともにセンタリングされます。</p>
@@ -298,8 +301,56 @@
 AtCoderにおける直近6回の成績
 </code></pre>
 <h3 id="output-1">output</h3>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
+<p><a name="table1"></a></p>
+<table style="margin-left: auto;margin-right: auto; width: 70%; text-align: center; display: table;">
+<thead>
+<tr>
+<th>&#x9806;&#x4F4D;</th>
+<th>&#x30D1;&#x30D5;&#x30A9;&#x30FC;&#x30DE;&#x30F3;&#x30B9;</th>
+<th>&#x65B0;Rating</th>
+<th>&#x5DEE;&#x5206;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1075</td>
+<td>1277</td>
+<td>1239</td>
+<td>+4</td>
+</tr>
+<tr>
+<td>1682</td>
+<td>1145</td>
+<td>1235</td>
+<td>-9</td>
+</tr>
+<tr>
+<td>2332</td>
+<td>1049</td>
+<td>1244</td>
+<td>-20</td>
+</tr>
+<tr>
+<td>3566</td>
+<td>912</td>
+<td>1264</td>
+<td>-33</td>
+</tr>
+<tr>
+<td>1123</td>
+<td>1478</td>
+<td>1297</td>
+<td>+22</td>
+</tr>
+<tr>
+<td>960</td>
+<td>1583</td>
+<td>1275</td>
+<td>+40</td>
+</tr>
+</tbody>
+</table>
+<p style="margin-left: auto;margin-right: auto; text-align: center">&#x8868;1. AtCoder&#x306B;&#x304A;&#x3051;&#x308B;&#x76F4;&#x8FD1;6&#x56DE;&#x306E;&#x6210;&#x7E3E;</p>
 <h2 id="数式のレンダリング">数式のレンダリング</h2>
 <p><code>$$</code>で括った数式には自動で式番号が振られます。
 数式は自動でセンタリングされます。</p>
@@ -308,9 +359,12 @@ AtCoderにおける直近6回の成績
 $$ \int \log x dx = x \log x - x + C $$
 </code></pre>
 <h3 id="output-2">output</h3>
-<!-- raw HTML omitted -->
+<figure class="image" style="margin: 0 0 auto auto; text-align: center; background: #fcfcfc;">
+  <a name="formula1" href>
+  <img src="https://render.githubusercontent.com/render/math?math=%5Cbegin%7Bequation%7D%0A%5Cint%20x%20dx%3D%20%5Cfrac%7Bx%5E2%7D%7B2%7D%20%2B%20C%20%5C%5C%20%0A%5Cint%20%5Clog%20x%20dx%3D%20x%5Clogx%20-%20x%20%2B%20C%0A%5Cend%7Bequation%7D%0A">
+</figure>
 <h2 id="参照の自動振り分け">参照の自動振り分け</h2>
-<p><!-- raw HTML omitted -->図1<!-- raw HTML omitted -->,<!-- raw HTML omitted -->表1<!-- raw HTML omitted -->,<!-- raw HTML omitted -->式1<!-- raw HTML omitted -->,
+<p><a href="#fig1">図1</a>,<a href="#table1">表1</a>,<a href="#formula1">式1</a>,
 のように存在している番号の図,表,式には自動でアンカーが設定されます。<br>
 クリックすることで対応する図,表,式の位置までジャンプします。</p>
 <h2 id="表紙用のフロントマター">表紙用のフロントマター</h2>

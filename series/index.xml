@@ -36,5 +36,14 @@
       <description>記事とか解説pdfを置く</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://ugis70194.github.io/1/01/mpereport_format_documentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ugis70194.github.io/1/01/mpereport_format_documentation/</guid>
+      <description>Markdown Preview Enhanced report format Visual Studio Code,Atomの拡張機能Markdown Preview Enhancedの拡張スクリプトです。 図,表,式の番号を自動で振る、参照を自動で</description>
+    </item>
+    
   </channel>
 </rss>
